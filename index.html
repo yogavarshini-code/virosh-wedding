@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ViRosh ♥ Vijay & Rashmika Wedding Celebration</title>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--pk1:#ffb6c1;--pk2:#ff85a1;--pk3:#ff4d79;--pk4:#e91e63;--pk5:#fce4ec;--pk6:#f8bbd9;--lav:#e8d5f5;--lav2:#d4b8e0;}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:'Quicksand',sans-serif;background:#fff0f5;color:#5a1a35;overflow-x:hidden;cursor:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Ctext y='28' font-size='26'%3E🌸%3C/text%3E%3C/svg%3E") 16 16,auto;}
+#hero{cursor:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Ctext y='28' font-size='26'%3E💍%3C/text%3E%3C/svg%3E") 16 16,auto;}
+#gallery{cursor:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Ctext y='28' font-size='26'%3E📸%3C/text%3E%3C/svg%3E") 16 16,auto;}
+#messages{cursor:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Ctext y='28' font-size='26'%3E💌%3C/text%3E%3C/svg%3E") 16 16,auto;}
+#timeline{cursor:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Ctext y='28' font-size='26'%3E🌹%3C/text%3E%3C/svg%3E") 16 16,auto;}
+#surprise{cursor:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Ctext y='28' font-size='26'%3E🎊%3C/text%3E%3C/svg%3E") 16 16,auto;}
+#final{cursor:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Ctext y='28' font-size='26'%3E🕊️%3C/text%3E%3C/svg%3E") 16 16,auto;}
+footer{cursor:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Ctext y='28' font-size='26'%3E✨%3C/text%3E%3C/svg%3E") 16 16,auto;}
+#gbg{position:fixed;top:0;left:0;width:100%;height:100%;z-index:-1;background:linear-gradient(135deg,#fff0f5,#fce4ec,#f8bbd9,#ffe4f0,#fff0f5);background-size:400% 400%;animation:gs 12s ease infinite;}
+@keyframes gs{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+#hbg{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none;overflow:hidden;}
+.bh{position:absolute;opacity:0;animation:fh 8s ease-in infinite;}
+@keyframes fh{0%{transform:translateY(100vh) scale(.4);opacity:0}10%{opacity:.28}80%{opacity:.1}100%{transform:translateY(-20px) scale(1.1);opacity:0}}
+#popup{position:fixed;top:0;left:0;width:100%;height:100%;z-index:9999;display:flex;align-items:center;justify-content:center;background:rgba(255,182,193,.55);backdrop-filter:blur(18px);animation:pi .6s cubic-bezier(.34,1.56,.64,1);}
+@keyframes pi{from{opacity:0;transform:scale(.5)}to{opacity:1;transform:scale(1)}}
+.pb{background:linear-gradient(135deg,#fff0f5,#fce4ec,#f8bbd9);border:2px solid var(--pk2);border-radius:28px;padding:50px 36px;max-width:520px;width:90%;text-align:center;box-shadow:0 20px 80px rgba(255,77,121,.3),0 0 0 8px rgba(255,182,193,.3);animation:pbi .7s .2s both cubic-bezier(.34,1.56,.64,1);}
+@keyframes pbi{from{transform:scale(.7) translateY(40px);opacity:0}to{transform:scale(1) translateY(0);opacity:1}}
+.pc{font-size:2.8rem;margin-bottom:12px;display:block;animation:bou 1s infinite alternate;}
+@keyframes bou{from{transform:translateY(0)}to{transform:translateY(-12px)}}
+.pb h2{font-family:'Great Vibes',cursive;font-size:2.8rem;color:var(--pk3);margin:10px 0;}
+.pb p{font-family:'Cormorant Garamond',serif;font-size:1.15rem;color:#a03060;line-height:1.75;margin-bottom:22px;}
+.pcl{background:linear-gradient(135deg,var(--pk3),var(--pk4));color:#fff;border:none;padding:14px 42px;border-radius:50px;font-family:'Quicksand',sans-serif;font-size:1rem;font-weight:700;cursor:pointer;transition:all .3s;box-shadow:0 6px 24px rgba(255,77,121,.4);}
+.pcl:hover{transform:scale(1.07);}
+.ph{font-size:1.4rem;margin-top:16px;display:block;letter-spacing:6px;}
+nav{position:fixed;top:0;left:0;width:100%;z-index:999;background:rgba(255,240,245,.88);backdrop-filter:blur(20px);padding:14px 32px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(255,133,161,.3);}
+.nl{font-family:'Great Vibes',cursive;font-size:1.9rem;color:var(--pk3);}
+.nls{display:flex;gap:24px;}
+.nls a{font-size:.8rem;font-weight:700;color:#a03060;text-decoration:none;letter-spacing:1.5px;text-transform:uppercase;transition:color .3s;}
+.nls a:hover{color:var(--pk3);}
+@media(max-width:600px){.nls{display:none;}}
+#hero{min-height:100vh;position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:100px 20px 60px;overflow:hidden;}
+.hfw{font-size:2.5rem;letter-spacing:12px;margin-bottom:10px;animation:sw 3s ease-in-out infinite;display:block;}
+@keyframes sw{0%,100%{transform:rotate(-5deg)}50%{transform:rotate(5deg)}}
+.htag{font-size:.8rem;font-weight:700;letter-spacing:3px;text-transform:uppercase;background:linear-gradient(135deg,var(--pk2),var(--pk3));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:8px;}
+.ht{font-family:'Great Vibes',cursive;font-size:clamp(3.5rem,10vw,8rem);color:var(--pk3);line-height:1;margin-bottom:4px;filter:drop-shadow(0 4px 24px rgba(255,77,121,.35));animation:tg 4s ease-in-out infinite;}
+@keyframes tg{0%,100%{filter:drop-shadow(0 4px 24px rgba(255,77,121,.35))}50%{filter:drop-shadow(0 8px 40px rgba(255,77,121,.75))}}
+.hamp{font-family:'Great Vibes',cursive;font-size:clamp(2rem,5vw,4rem);color:var(--lav2);display:block;margin:-8px 0;}
+.hsub{font-family:'Cormorant Garamond',serif;font-size:clamp(1rem,2.5vw,1.4rem);color:#a03060;font-style:italic;margin-top:14px;letter-spacing:2px;}
+.hdate{font-size:.85rem;font-weight:700;letter-spacing:4px;color:var(--pk2);background:rgba(255,255,255,.55);padding:8px 22px;border-radius:30px;border:1px solid var(--pk1);margin-top:8px;display:inline-block;}
+.htyp{font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-style:italic;color:#c2185b;margin-top:20px;min-height:32px;}
+.tc{animation:bl .8s infinite;}
+@keyframes bl{0%,100%{opacity:1}50%{opacity:0}}
+.sdn{margin-top:36px;font-size:2rem;animation:sb 2s ease-in-out infinite;color:var(--pk2);}
+@keyframes sb{0%,100%{transform:translateY(0)}50%{transform:translateY(12px)}}
+.fi{position:absolute;font-size:1.8rem;opacity:.6;animation:fa 6s ease-in-out infinite;pointer-events:none;}
+.fi:nth-child(1){top:15%;left:8%;animation-delay:0s;font-size:2.2rem;}
+.fi:nth-child(2){top:22%;right:9%;animation-delay:1s;font-size:1.5rem;}
+.fi:nth-child(3){bottom:28%;left:5%;animation-delay:2s;font-size:1.3rem;}
+.fi:nth-child(4){bottom:32%;right:7%;animation-delay:.5s;font-size:2rem;}
+.fi:nth-child(5){top:52%;left:3%;animation-delay:1.5s;font-size:1.2rem;}
+.fi:nth-child(6){top:60%;right:4%;animation-delay:2.5s;font-size:1.4rem;}
+@keyframes fa{0%,100%{transform:translateY(0) rotate(0)}33%{transform:translateY(-18px) rotate(10deg)}66%{transform:translateY(8px) rotate(-8deg)}}
+.sec{position:relative;z-index:1;padding:80px 20px;}
+.stit{font-family:'Great Vibes',cursive;font-size:clamp(2.5rem,6vw,4.5rem);color:var(--pk3);text-align:center;margin-bottom:12px;filter:drop-shadow(0 2px 12px rgba(255,77,121,.3));}
+.ssub{text-align:center;font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:#a03060;font-style:italic;margin-bottom:50px;letter-spacing:1px;}
+.sdiv{text-align:center;font-size:1.3rem;margin-bottom:46px;color:var(--pk2);letter-spacing:10px;}
+.gg{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:24px;max-width:1200px;margin:0 auto;}
+.pc2{border-radius:20px;overflow:hidden;position:relative;background:rgba(255,182,193,.2);border:2px solid rgba(255,133,161,.4);box-shadow:0 8px 32px rgba(255,77,121,.15);transition:transform .4s cubic-bezier(.34,1.56,.64,1),box-shadow .4s;cursor:pointer;}
+.pc2:hover{transform:scale(1.04) rotate(1deg);box-shadow:0 20px 60px rgba(255,77,121,.4);border-color:var(--pk3);}
+.pc2 img{width:100%;height:260px;object-fit:cover;transition:transform .5s;}
+.pc2:hover img{transform:scale(1.08);}
+.pi2{padding:14px 16px;}
+.ptag{display:inline-block;background:linear-gradient(135deg,var(--pk2),var(--pk3));color:#fff;font-size:.7rem;font-weight:700;padding:4px 12px;border-radius:20px;margin-bottom:8px;letter-spacing:1px;text-transform:uppercase;}
+.pcap{font-family:'Cormorant Garamond',serif;font-size:1rem;color:#a03060;font-style:italic;}
+.pfb{position:absolute;top:0;left:0;right:0;bottom:0;pointer-events:none;border-radius:18px;background:linear-gradient(135deg,rgba(255,182,193,.25),transparent 40%,transparent 60%,rgba(255,133,161,.2));animation:fp 3s ease-in-out infinite;}
+@keyframes fp{0%,100%{opacity:.5}50%{opacity:1}}
+.ie{width:100%;height:260px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#fce4ec,#f8bbd9);font-size:3rem;}
+.mg{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:28px;max-width:1100px;margin:0 auto;}
+.mc{background:linear-gradient(135deg,rgba(255,255,255,.78),rgba(248,187,217,.42));backdrop-filter:blur(20px);border:1.5px solid rgba(255,133,161,.5);border-radius:24px;padding:36px 28px;text-align:center;position:relative;overflow:hidden;box-shadow:0 8px 40px rgba(255,77,121,.12),inset 0 1px 0 rgba(255,255,255,.8);transition:all .4s cubic-bezier(.34,1.56,.64,1);animation:mf 6s ease-in-out infinite;}
+.mc:nth-child(2){animation-delay:2s;}
+.mc:nth-child(3){animation-delay:4s;}
+.mc:nth-child(4){animation-delay:1s;}
+.mc:nth-child(5){animation-delay:3s;}
+.mc:nth-child(6){animation-delay:5s;}
+@keyframes mf{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.mc:hover{transform:scale(1.04) translateY(-10px)!important;box-shadow:0 20px 60px rgba(255,77,121,.3);border-color:var(--pk3);}
+.mc::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:conic-gradient(from 0deg,transparent 50%,rgba(255,133,161,.15) 60%,transparent 70%);animation:rb 6s linear infinite;border-radius:inherit;}
+@keyframes rb{to{transform:rotate(360deg)}}
+.mi{font-size:2.4rem;margin-bottom:14px;display:block;animation:ip 2s ease-in-out infinite;}
+@keyframes ip{0%,100%{transform:scale(1)}50%{transform:scale(1.15)}}
+.mt2{font-family:'Great Vibes',cursive;font-size:1.9rem;color:var(--pk3);margin-bottom:12px;}
+.mtx{font-family:'Cormorant Garamond',serif;font-size:1.05rem;color:#7a2045;line-height:1.75;font-style:italic;position:relative;z-index:1;}
+.mgr{position:absolute;top:50%;left:50%;width:80%;height:80%;transform:translate(-50%,-50%);border:1px solid rgba(255,133,161,.2);border-radius:50%;animation:rp 4s ease-in-out infinite;pointer-events:none;}
+@keyframes rp{0%,100%{transform:translate(-50%,-50%) scale(1);opacity:.4}50%{transform:translate(-50%,-50%) scale(1.2);opacity:0}}
+.tlc{max-width:800px;margin:0 auto;position:relative;}
+.tll{position:absolute;left:50%;top:0;bottom:0;width:3px;background:linear-gradient(to bottom,var(--pk1),var(--pk3),var(--lav2),var(--pk2));transform:translateX(-50%);border-radius:3px;}
+.tli{display:flex;align-items:center;margin-bottom:50px;position:relative;opacity:0;transform:translateY(30px);transition:all .7s cubic-bezier(.34,1.56,.64,1);}
+.tli.visible{opacity:1;transform:translateY(0);}
+.tli:nth-child(odd){flex-direction:row-reverse;}
+.tlca{width:44%;background:linear-gradient(135deg,rgba(255,255,255,.85),rgba(248,187,217,.44));backdrop-filter:blur(16px);border:1.5px solid rgba(255,133,161,.45);border-radius:20px;padding:24px 20px;box-shadow:0 6px 30px rgba(255,77,121,.15);}
+.tli:nth-child(odd) .tlca{margin-right:8%;}
+.tli:nth-child(even) .tlca{margin-left:8%;}
+.tle2{font-size:2rem;display:block;margin-bottom:8px;}
+.tly{font-size:.78rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--pk2);margin-bottom:6px;}
+.tlev{font-family:'Great Vibes',cursive;font-size:1.5rem;color:var(--pk3);margin-bottom:6px;}
+.tld{font-family:'Cormorant Garamond',serif;font-size:.95rem;color:#7a2045;font-style:italic;line-height:1.6;}
+.tlce{width:12%;display:flex;align-items:center;justify-content:center;font-size:1.5rem;position:relative;z-index:2;}
+@media(max-width:650px){.tll,.tlce{display:none;}.tli,.tli:nth-child(odd){flex-direction:column;align-items:stretch;}.tlca,.tli:nth-child(odd) .tlca,.tli:nth-child(even) .tlca{width:100%;margin:0;}}
+#surprise{text-align:center;}
+.sbtn{position:relative;overflow:hidden;background:linear-gradient(135deg,var(--pk2),var(--pk3),var(--pk4));color:#fff;border:none;padding:22px 60px;border-radius:60px;font-family:'Quicksand',sans-serif;font-size:1.15rem;font-weight:700;cursor:pointer;box-shadow:0 8px 40px rgba(255,77,121,.45);animation:bp 2.5s ease-in-out infinite;letter-spacing:1px;margin-top:20px;}
+@keyframes bp{0%,100%{transform:scale(1);box-shadow:0 8px 40px rgba(255,77,121,.45)}50%{transform:scale(1.04);box-shadow:0 14px 60px rgba(255,77,121,.7)}}
+.sbtn:hover{animation:none;transform:scale(1.08);}
+#cc{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:8888;}
+.cfp{position:absolute;top:-20px;border-radius:3px;animation:cff linear forwards;}
+@keyframes cff{to{transform:translateY(105vh) rotate(720deg);opacity:0}}
+.smsg{display:none;margin:30px auto 0;padding:32px 28px;background:linear-gradient(135deg,rgba(255,255,255,.85),rgba(248,187,217,.52));backdrop-filter:blur(20px);border:2px solid var(--pk2);border-radius:24px;max-width:600px;}
+.smsg.show{display:block;animation:fi2 .7s ease;}
+@keyframes fi2{from{opacity:0;transform:scale(.9)}to{opacity:1;transform:scale(1)}}
+.smsg h3{font-family:'Great Vibes',cursive;font-size:2.5rem;color:var(--pk3);margin-bottom:12px;}
+.smsg p{font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:#7a2045;font-style:italic;line-height:1.7;}
+#final{text-align:center;min-height:50vh;display:flex;flex-direction:column;align-items:center;justify-content:center;}
+.fem{font-size:3rem;margin-bottom:16px;animation:hb 1.5s ease-in-out infinite;display:block;}
+@keyframes hb{0%,100%{transform:scale(1)}14%{transform:scale(1.25)}28%{transform:scale(1)}42%{transform:scale(1.18)}70%{transform:scale(1)}}
+.ft{font-family:'Great Vibes',cursive;font-size:clamp(2.5rem,7vw,5rem);color:var(--pk3);line-height:1.3;animation:fg 3s ease-in-out infinite;}
+@keyframes fg{0%,100%{filter:drop-shadow(0 4px 20px rgba(255,77,121,.3))}50%{filter:drop-shadow(0 8px 50px rgba(255,77,121,.8))}}
+.fs2{font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:#a03060;font-style:italic;margin-top:16px;line-height:1.7;max-width:560px;}
+.ch{position:fixed;pointer-events:none;z-index:9000;font-size:1.5rem;animation:cf 1.2s ease-out forwards;}
+@keyframes cf{0%{opacity:1;transform:scale(1) translateY(0)}100%{opacity:0;transform:scale(1.6) translateY(-60px)}}
+footer{position:relative;z-index:1;background:linear-gradient(135deg,var(--pk3),var(--pk4));color:#fff;text-align:center;padding:50px 20px 30px;}
+.flog{font-family:'Great Vibes',cursive;font-size:2.5rem;margin-bottom:8px;}
+.ftag2{font-family:'Cormorant Garamond',serif;font-size:1rem;font-style:italic;opacity:.9;margin-bottom:24px;}
+.fsc{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin-bottom:20px;}
+.sl{background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.4);padding:10px 24px;border-radius:30px;color:#fff;text-decoration:none;font-weight:600;font-size:.9rem;transition:all .3s;display:flex;align-items:center;gap:8px;}
+.sl:hover{background:rgba(255,255,255,.35);transform:scale(1.05);}
+.fcr{margin-top:20px;font-size:.85rem;opacity:.8;border-top:1px solid rgba(255,255,255,.25);padding-top:20px;}
+.cbr{font-weight:700;font-size:1rem;opacity:1;letter-spacing:1px;}
+.fdin{opacity:0;transform:translateY(40px);transition:all .8s cubic-bezier(.34,1.56,.64,1);}
+.fdin.visible{opacity:1;transform:translateY(0);}
+::-webkit-scrollbar{width:6px;}
+::-webkit-scrollbar-track{background:#fff0f5;}
+::-webkit-scrollbar-thumb{background:linear-gradient(var(--pk2),var(--pk3));border-radius:3px;}
+</style>
+</head>
+<body>
+<div id="gbg"></div>
+<div id="hbg"></div>
+<div id="cc"></div>
+<div id="click-hearts"></div>
+
+<div id="popup">
+  <div class="pb">
+    <span class="pc">🎊</span>
+    <h2>A Dream Come True!</h2>
+    <p>Two hearts that found each other on the sets of <em>Geetha Govindam</em> in 2018 — today, they are one forever. Welcome to the magical celebration of <strong>Vijay &amp; Rashmika's</strong> fairytale wedding in Udaipur! 🌸</p>
+    <button class="pcl" onclick="closePopup()">Enter the Celebration ✨</button>
+    <span class="ph">🌸 💗 🌷 💗 🌸</span>
+  </div>
+</div>
+
+<nav>
+  <div class="nl">ViRosh ♥</div>
+  <div class="nls">
+    <a href="#gallery">Gallery</a>
+    <a href="#messages">Messages</a>
+    <a href="#timeline">Story</a>
+    <a href="#surprise">Surprise</a>
+  </div>
+</nav>
+
+<section id="hero">
+  <span class="fi">🌸</span><span class="fi">💐</span><span class="fi">🌷</span>
+  <span class="fi">💍</span><span class="fi">🕊️</span><span class="fi">🌺</span>
+  <span class="hfw">🌸 🌺 🌸</span>
+  <p class="htag">♥ A Magical Wedding Celebration ♥</p>
+  <h1 class="ht">Vijay</h1>
+  <span class="hamp">&amp;</span>
+  <h1 class="ht">Rashmika</h1>
+  <p class="hsub">United in Love · Forever Begins 💗</p>
+  <div class="hdate">💍 February 26, 2026 · Udaipur, Rajasthan 💍</div>
+  <div class="htyp"><span id="tt"></span><span class="tc">|</span></div>
+  <div class="sdn">🌸</div>
+</section>
+
+<section id="gallery" class="sec">
+  <h2 class="stit fdin">Moments Together</h2>
+  <p class="ssub fdin">Every photograph, a memory etched in forever 📸</p>
+  <div class="sdiv">🌷 ❀ 🌷</div>
+  <div class="gg" id="gal-grid"></div>
+</section>
+
+<section id="messages" class="sec">
+  <h2 class="stit fdin">Love Letters</h2>
+  <p class="ssub fdin">Words that speak straight from the heart 💌</p>
+  <div class="sdiv">🌸 ♥ 🌸</div>
+  <div class="mg" id="msg-grid"></div>
+</section>
+
+<section id="timeline" class="sec">
+  <h2 class="stit fdin">Their Beautiful Story</h2>
+  <p class="ssub fdin">From co-stars to soulmates — a love written in the stars 🌟</p>
+  <div class="sdiv">🌷 ❤️ 🌷</div>
+  <div class="tlc" id="tl-cont"><div class="tll"></div></div>
+</section>
+
+<section id="surprise" class="sec">
+  <h2 class="stit fdin">A Special Surprise</h2>
+  <p class="ssub fdin">Something magical awaits you 🎊</p>
+  <button class="sbtn" onclick="launchSurprise()">🎊 Click for a Surprise Blessing! 🎊</button>
+  <div class="smsg" id="smsg">
+    <h3>With All Our Love 💗</h3>
+    <p>May your journey together be as beautiful as a rose garden in full bloom — filled with laughter, warmth, and a love so deep it can weather any storm. Vijay &amp; Rashmika, you are the love story we all believed in. Here's to forever! 🌸💍🌷</p>
+  </div>
+</section>
+
+<section id="final" class="sec">
+  <span class="fem">💗</span>
+  <h2 class="ft">Forever Starts Today,<br>Vijay &amp; Rashmika</h2>
+  <p class="fs2">Two souls, one destiny. May every sunrise bring you joy, every sunset bring you peace, and every moment in between overflow with a love that only grows deeper with time. 🌸</p>
+  <div style="margin-top:30px;font-size:2rem;letter-spacing:8px;animation:hb 1.5s ease-in-out infinite;">🌸 💗 💍 💗 🌸</div>
+</section>
+
+<footer>
+  <div class="flog">ViRosh ♥</div>
+  <p class="ftag2">A love story for the ages · February 26, 2026</p>
+  <div class="fsc">
+    <a href="https://www.instagram.com/wishweb.studio" target="_blank" class="sl">📸 @wishweb.studio</a>
+    <a href="https://www.facebook.com/wishweb.studio" target="_blank" class="sl">📘 @wishweb.studio</a>
+  </div>
+  <div class="fcr">
+    <p>Designed with 💗 by</p>
+    <p class="cbr">✨ WishWeb Studio ✨</p>
+    <p style="margin-top:6px;font-size:.78rem;opacity:.7;">Creating magical celebration websites · @wishweb.studio</p>
+  </div>
+</footer>
+
+<script>
+const D={
+  typingPhrases:["Two stars. One destiny. 💫","Best friends turned soulmates. 🌸","Their love story began on screen... 🎬","...and bloomed into forever. 💍","Welcome to ViRosh's celebration! 🌺"],
+  photos:[
+    {url:"https://cdn1.wionews.com/prod/wion/images/2026/20260226/image-1772116433998.png",caption:"The Sacred Ceremony",tag:"Wedding 💍"},
+    {url:"https://cdn1.wionews.com/prod/wion/images/2026/20260226/image-1772116459718.png",caption:"Together At Last",tag:"Wedding 🌸"},
+    {url:"https://cdn1.wionews.com/prod/wion/images/2026/20260226/image-1772116544313.png",caption:"'To be called your wife!'",tag:"Wedding 💗"},
+    {url:"https://cdn1.wionews.com/prod/wion/images/2026/20260226/image-1772116562779.png",caption:"Happy Tears of Joy",tag:"Wedding 🥹"},
+    {url:"https://cdn1.wionews.com/prod/wion/images/2026/20260226/image-1772116581756.png",caption:"'Made my best friend my wife'",tag:"Wedding 💍"},
+    {url:"https://cdn1.wionews.com/prod/wion/images/2026/20260226/image-1772116592831.png",caption:"The Royal Couple",tag:"Wedding 👑"},
+    {url:"https://cdn1.wionews.com/prod/wion/images/2026/20260303/image-1772520833973.jpg",caption:"ViRosh Sangeet Night",tag:"Sangeet 🎶"},
+    {url:"https://cdn1.wionews.com/prod/wion/images/2026/20260303/image-1772520846647.jpg",caption:"Dancing as One",tag:"Sangeet 💃"},
+    {url:"https://cdn1.wionews.com/prod/wion/images/2026/20260303/image-1772520854845.jpg",caption:"A Night of Laughter",tag:"Sangeet 🎊"},
+    {url:"https://cdn1.wionews.com/prod/wion/images/2026/20260303/image-1772520874855.jpg",caption:"Dressed by Falguni Shane Peacock",tag:"Fashion ✨"}
+  ],
+  messages:[
+    {icon:"💌",title:"Made for Each Other",text:"From the moment they shared the screen in Geetha Govindam, it was clear — this was a chemistry the universe had scripted long before the cameras rolled. Vijay and Rashmika were simply made for each other."},
+    {icon:"🌹",title:"Best Friends First",text:"Vijay once wrote, 'I needed her — just to feel that sense of home and calm.' That is love at its purest — not fireworks alone, but the quiet peace of finding your forever person in your best friend."},
+    {icon:"💍",title:"A Fairytale in Udaipur",text:"In the golden city of Udaipur, dressed in grace and tradition, they became one. Two cultures, two families, one beautiful beginning. Rashmika whispered 'I am so excited to be called your wife!' — and the whole world smiled."},
+    {icon:"🌸",title:"The Sangeet Night",text:"Dancing until their feet hurt, laughing until happy tears streamed down their cheeks — their Sangeet night at ITC Mementos was a fairytale the guests will treasure forever. Love is loudest when celebrated together."},
+    {icon:"🕊️",title:"A Love That Inspires",text:"They kept their love private and sacred — sharing it with the world only when it was ready to bloom. In a world of noise, Vijay and Rashmika chose to let their love speak quietly, and oh so beautifully."},
+    {icon:"💗",title:"Forever Begins Now",text:"They are not just two stars from the silver screen — they are two hearts that chose each other over and over, through years of whispered feelings, until finally the world got to witness their forever begin. Here's to ViRosh! 🌺"}
+  ],
+  timeline:[
+    {year:"2017",event:"First Meeting",desc:"Vijay and Rashmika first crossed paths when cast together in Geetha Govindam — a moment that would quietly change everything.",emoji:"🎬"},
+    {year:"2018",event:"Geetha Govindam",desc:"Their on-screen chemistry in this blockbuster love story captured hearts across the nation. Fans began dreaming of a real-life ViRosh.",emoji:"🌟"},
+    {year:"2019",event:"Dear Comrade",desc:"They reunited on screen, deepening their bond. Something beautiful was quietly growing off-camera between two people who truly understood each other.",emoji:"🌷"},
+    {year:"2020–2023",event:"Silent Companionship",desc:"Through the world's chaos, they were each other's calm. Vijay later recalled, 'I needed her wherever I was, to feel like home.'",emoji:"🤍"},
+    {year:"Feb 2026",event:"Wedding Announcement",desc:"On a magical Sunday, they announced their upcoming wedding in a joint post that broke the internet and filled every heart with pure joy.",emoji:"📣"},
+    {year:"24 Feb 2026",event:"Sangeet Night 🎶",desc:"An unforgettable evening of dance, happy tears, music and love at ITC Mementos Udaipur — a fairytale beginning to their forever.",emoji:"🎶"},
+    {year:"26 Feb 2026",event:"The Wedding ♥",desc:"In a breathtaking blend of Telugu and Kodava traditions, Vijay tied the mangalsutra around Rashmika's neck, and the entire world celebrated with them.",emoji:"💍"},
+    {year:"4 Mar 2026",event:"Grand Reception 🎊",desc:"A star-studded reception in Hyderabad attended by Bollywood and Tollywood royalty — a fitting celebration of cinema's most beloved couple.",emoji:"🎊"}
+  ]
+};
+
+function renderGallery(){
+  const g=document.getElementById('gal-grid');
+  D.photos.forEach((p,i)=>{
+    const c=document.createElement('div');
+    c.className='pc2 fdin';
+    c.style.transitionDelay=i*.07+'s';
+    c.innerHTML='<img src="'+p.url+'" alt="'+p.caption+'" loading="lazy" onerror="this.outerHTML=\'<div class=\\"ie\\">💗</div>\'">'
+      +'<div class="pfb"></div>'
+      +'<div class="pi2"><span class="ptag">'+p.tag+'</span><p class="pcap">'+p.caption+'</p></div>';
+    g.appendChild(c);
+  });
+}
+
+function renderMessages(){
+  const g=document.getElementById('msg-grid');
+  D.messages.forEach((m,i)=>{
+    const c=document.createElement('div');
+    c.className='mc fdin';
+    c.style.transitionDelay=i*.1+'s';
+    c.innerHTML='<span class="mi">'+m.icon+'</span><h3 class="mt2">'+m.title+'</h3><p class="mtx">'+m.text+'</p><div class="mgr"></div>';
+    g.appendChild(c);
+  });
+}
+
+function renderTimeline(){
+  const c=document.getElementById('tl-cont');
+  D.timeline.forEach(t=>{
+    const el=document.createElement('div');
+    el.className='tli';
+    el.innerHTML='<div class="tlca"><span class="tle2">'+t.emoji+'</span><div class="tly">'+t.year+'</div><div class="tlev">'+t.event+'</div><div class="tld">'+t.desc+'</div></div>'
+      +'<div class="tlce">'+t.emoji+'</div>'
+      +'<div class="tlca" style="opacity:0;pointer-events:none;"></div>';
+    c.appendChild(el);
+  });
+}
+
+let pi=0,ci=0,del=false;
+function type(){
+  const el=document.getElementById('tt');
+  const ph=D.typingPhrases[pi];
+  if(del){el.textContent=ph.substring(0,ci--);if(ci<0){del=false;pi=(pi+1)%D.typingPhrases.length;ci=0;setTimeout(type,600);return;}}
+  else{el.textContent=ph.substring(0,ci++);if(ci>ph.length){del=true;setTimeout(type,1800);return;}}
+  setTimeout(type,del?40:75);
+}
+
+function bgHearts(){
+  const c=document.getElementById('hbg');
+  const em=['💗','🌸','💕','🌷','💞','🌺','💓','✿','🩷'];
+  setInterval(()=>{
+    const h=document.createElement('div');h.className='bh';
+    h.textContent=em[Math.floor(Math.random()*em.length)];
+    h.style.left=Math.random()*100+'%';
+    h.style.fontSize=(0.8+Math.random()*1.3)+'rem';
+    h.style.animationDuration=(5+Math.random()*6)+'s';
+    h.style.animationDelay=Math.random()*2+'s';
+    c.appendChild(h);setTimeout(()=>h.remove(),13000);
+  },700);
+}
+
+function clickHearts(){
+  const em=['💗','🌸','💕','🌷','💍','✨','🌺','💞','🩷'];
+  document.addEventListener('click',e=>{
+    if(e.target.closest('#popup')||e.target.closest('.pcl')||e.target.closest('.sbtn'))return;
+    for(let k=0;k<3;k++){
+      const h=document.createElement('div');h.className='ch';
+      h.textContent=em[Math.floor(Math.random()*em.length)];
+      h.style.left=(e.clientX+(Math.random()-.5)*40)+'px';
+      h.style.top=(e.clientY+(Math.random()-.5)*20)+'px';
+      h.style.fontSize=(1+Math.random()*.8)+'rem';
+      h.style.animationDelay=k*.1+'s';
+      document.getElementById('click-hearts').appendChild(h);
+      setTimeout(()=>h.remove(),1300);
+    }
+  });
+}
+
+function observe(){
+  const o=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible');});},{threshold:.15});
+  document.querySelectorAll('.fdin,.tli').forEach(el=>o.observe(el));
+}
+
+function closePopup(){
+  const p=document.getElementById('popup');
+  p.style.transition='opacity .5s,transform .5s';p.style.opacity='0';p.style.transform='scale(1.05)';
+  setTimeout(()=>p.style.display='none',500);
+  confetti(60);
+}
+
+function launchSurprise(){
+  confetti(120);
+  const m=document.getElementById('smsg');
+  m.classList.add('show');
+  setTimeout(()=>m.scrollIntoView({behavior:'smooth',block:'center'}),200);
+}
+
+function confetti(n){
+  const cols=['#ff85a1','#ff4d79','#ffb6c1','#e8d5f5','#d4b8e0','#fce4ec','#fff','#f8bbd9'];
+  const c=document.getElementById('cc');
+  for(let i=0;i<n;i++){
+    const p=document.createElement('div');p.className='cfp';
+    p.style.left=Math.random()*100+'vw';
+    p.style.background=cols[Math.floor(Math.random()*cols.length)];
+    p.style.width=(6+Math.random()*8)+'px';p.style.height=(10+Math.random()*10)+'px';
+    p.style.borderRadius=Math.random()>.5?'50%':'3px';
+    p.style.animationDuration=(1.5+Math.random()*2.5)+'s';
+    p.style.animationDelay=Math.random()*1.5+'s';
+    p.style.transform='rotate('+Math.random()*360+'deg)';
+    c.appendChild(p);setTimeout(()=>p.remove(),5000);
+  }
+}
+
+document.addEventListener('DOMContentLoaded',()=>{
+  renderGallery();renderMessages();renderTimeline();type();bgHearts();clickHearts();observe();
+});
+</script>
+</body>
+</html>
